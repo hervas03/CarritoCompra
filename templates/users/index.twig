@@ -1,0 +1,14 @@
+  {% extends "plantilla.twig" %}  
+    {% block title %}Gibraltar español{% endblock %}
+    
+
+    {% block content %}
+    <ul>
+    {%  for dia in dias %}
+    <li>{{ dia }}</li>
+    {% endfor %}
+    </ul>
+    {% endblock %}
+
+
+    
